@@ -1,16 +1,21 @@
 
 // all imports originated in deps.ts
-import { test_array     } from "./deps.ts";
-import { test_math      } from "./deps.ts";
-import { test_string    } from "./deps.ts";
-import { test_timer     } from "./deps.ts";
-import { test_timestamp } from "./deps.ts";
+import { 
+
+  array,
+  math,
+  string,
+
+  test_timer,
+  test_timestamp,
+
+} from "./deps.ts";
 
 ////////////////////////////////////////////////////////////////////////////////
 const test: any = {
-  array:     test_array,
-  math:      test_math,
-  string:    test_string,
+  array:     array.test,
+  math:      math.test,
+  string:    string.test,
   timer:     test_timer,
   timestamp: test_timestamp,
 }; // test
@@ -18,6 +23,10 @@ const test: any = {
 export {
 
   test,
+
+  array,
+  math,
+  string,
 
 }; // export
 

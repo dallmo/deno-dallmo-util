@@ -12,23 +12,14 @@ export {
 
 } from "https://deno.land/std/assert/mod.ts";
 ////////////////////////////////////////////////////////////////////////////////
-export {
-
-  test as test_array,
-
-} from "../deno-dallmo-util-array.clone/mod.ts";
+export * as array from "https://deno.land/x/dallmo_util_array/mod.ts"; // published deno module
+//} from "../deno-dallmo-util-array.clone/mod.ts"; // local dev
 ////////////////////////////////////////////////////////////////////////////////
-export {
-
-  test as test_math,
-
-} from "../deno-dallmo-util-math.clone/mod.ts";
+export * as math from "https://deno.land/x/dallmo_util_math/mod.ts"; // published deno module
+//} from "../deno-dallmo-util-math.clone/mod.ts"; // local dev
 ////////////////////////////////////////////////////////////////////////////////
-export {
-
-  test as test_string,
-
-} from "../deno-dallmo-util-string.clone/mod.ts";
+export * as string from "https://deno.land/x/dallmo_util_string/mod.ts"; // published deno module
+//} from "../deno-dallmo-util-string.clone/mod.ts"; // local dev
 ////////////////////////////////////////////////////////////////////////////////
 export {
 
