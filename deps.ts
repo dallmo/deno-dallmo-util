@@ -12,25 +12,23 @@ export {
 
 } from "https://deno.land/std/assert/mod.ts";
 ////////////////////////////////////////////////////////////////////////////////
-export * as array from "https://deno.land/x/dallmo_util_array/mod.ts"; // published deno module
-//} from "../deno-dallmo-util-array.clone/mod.ts"; // local dev
-////////////////////////////////////////////////////////////////////////////////
-export * as math from "https://deno.land/x/dallmo_util_math/mod.ts"; // published deno module
-//} from "../deno-dallmo-util-math.clone/mod.ts"; // local dev
-////////////////////////////////////////////////////////////////////////////////
+export * as array  from "https://deno.land/x/dallmo_util_array/mod.ts"; // published deno module
+export * as math   from "https://deno.land/x/dallmo_util_math/mod.ts"; // published deno module
 export * as string from "https://deno.land/x/dallmo_util_string/mod.ts"; // published deno module
-//} from "../deno-dallmo-util-string.clone/mod.ts"; // local dev
+
+export * as yaml   from "https://deno.land/x/dallmo_util_yaml/mod.ts"; // published deno module
+
 ////////////////////////////////////////////////////////////////////////////////
 export {
 
   test as test_timer,
 
-} from "../deno-dallmo-util-timer.clone/mod.ts";
+} from "../child-modules/deno-dallmo-util-timer.clone/mod.ts";
 ////////////////////////////////////////////////////////////////////////////////
 export {
 
   test as test_timestamp,
 
-} from "../deno-dallmo-util-timestamp.clone/mod.ts";
+} from "../child-modules/deno-dallmo-util-timestamp.clone/mod.ts";
 ////////////////////////////////////////////////////////////////////////////////
 

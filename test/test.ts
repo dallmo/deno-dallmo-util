@@ -35,6 +35,12 @@ Deno.test( "test reaching dallmo-util-timestamp", () => {
 
 }); // Deno.test
 /////////////////////////////////////////////////////////////
+Deno.test( "test reaching dallmo-util-yaml", () => {
+
+  assertEquals( dallmo_util.test.yaml(), "ok");
+
+}); // Deno.test
+/////////////////////////////////////////////////////////////
 Deno.test( "test child module string : cap / capitalize", () => {
 
   const input_string: string = "abcde";
