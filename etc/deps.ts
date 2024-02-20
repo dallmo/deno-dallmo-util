@@ -23,12 +23,12 @@ export {
 
   test as test_timer,
 
-} from "../child-modules/deno-dallmo-util-timer.clone/mod.ts";
+} from "../../child-modules/deno-dallmo-util-timer.clone/mod.ts";
 ////////////////////////////////////////////////////////////////////////////////
 export {
 
   test as test_timestamp,
 
-} from "../child-modules/deno-dallmo-util-timestamp.clone/mod.ts";
+} from "../../child-modules/deno-dallmo-util-timestamp.clone/mod.ts";
 ////////////////////////////////////////////////////////////////////////////////
 
