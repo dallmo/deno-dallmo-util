@@ -1,5 +1,45 @@
 {
   "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@dallmo/util-array@^1.2.0": "jsr:@dallmo/util-array@1.2.0",
+      "jsr:@dallmo/util-math@^1.1.0": "jsr:@dallmo/util-math@1.1.0",
+      "jsr:@dallmo/util-string@^1.2.0": "jsr:@dallmo/util-string@1.2.0",
+      "jsr:@dallmo/util-yaml@^1.5.2": "jsr:@dallmo/util-yaml@1.5.2",
+      "jsr:@std/assert@^0.218.2": "jsr:@std/assert@0.218.2",
+      "jsr:@std/fmt@^0.218.2": "jsr:@std/fmt@0.218.2",
+      "jsr:@std/yaml@^0.218.2": "jsr:@std/yaml@0.218.2"
+    },
+    "jsr": {
+      "@dallmo/util-array@1.2.0": {
+        "integrity": "bb6cd4de4b7145b927fd808d93cf4bf759c9b93fcba6828cd12cef1fd4491a71"
+      },
+      "@dallmo/util-math@1.1.0": {
+        "integrity": "cff8e792cac000df3f93a74dbe7040f747b25c1f73c02dc77dbec858f4d8aa3e"
+      },
+      "@dallmo/util-string@1.2.0": {
+        "integrity": "354e99e8005a0fa6b35813615174a974dbdcc6656813d1ac68439c498e3821dc"
+      },
+      "@dallmo/util-yaml@1.5.2": {
+        "integrity": "4f13a52069e9c00dcfec1e49c3703ed476a59ae127a4ba8177269acad078478a",
+        "dependencies": [
+          "jsr:@std/yaml@^0.218.2"
+        ]
+      },
+      "@std/assert@0.218.2": {
+        "integrity": "7f0a5a1a8cf86607cd6c2c030584096e1ffad27fc9271429a8cb48cfbdee5eaf",
+        "dependencies": [
+          "jsr:@std/fmt@^0.218.2"
+        ]
+      },
+      "@std/fmt@0.218.2": {
+        "integrity": "99526449d2505aa758b6cbef81e7dd471d8b28ec0dcb1491d122b284c548788a"
+      },
+      "@std/yaml@0.218.2": {
+        "integrity": "82278eb3ce7491e2c3280d926973a8c3f71d25dd3f187c133b33f5c83ea17a5a"
+      }
+    }
+  },
   "remote": {
     "https://deno.land/std@0.218.2/assert/_constants.ts": "a271e8ef5a573f1df8e822a6eb9d09df064ad66a4390f21b3e31f820a38e0975",
     "https://deno.land/std@0.218.2/assert/_diff.ts": "dcc63d94ca289aec80644030cf88ccbf7acaa6fbd7b0f22add93616b36593840",
@@ -74,6 +114,8 @@
     "https://deno.land/x/dallmo_util_array@v1.2.0/mod.ts": "61e22b5dd12713c1d7b0ab84455726419ab98f630610b5478a039a8799cdb786",
     "https://deno.land/x/dallmo_util_math@v1.1.0/app.ts": "3154c77e552f860442cc713bcd8d1bc700bba153f3b1da94dd826f9016c000c4",
     "https://deno.land/x/dallmo_util_math@v1.1.0/mod.ts": "79d9def20bd2e69bd92cda79c23fb36660aab4f3d8292f441a059026e47a28e9",
+    "https://deno.land/x/dallmo_util_string@v1.2.0/app.ts": "a56ab263ba0f25c8893d0e7af74db54bb21a16c6e6b8259affedb1ce969a22dc",
+    "https://deno.land/x/dallmo_util_string@v1.2.0/mod.ts": "61e22b5dd12713c1d7b0ab84455726419ab98f630610b5478a039a8799cdb786",
     "https://deno.land/x/dallmo_util_yaml@v1.5.2/app.ts": "ef8326d7b0cf79244ba21def0f17487928c16e0547e93b35eb5fc0a2af8b255c",
     "https://deno.land/x/dallmo_util_yaml@v1.5.2/etc/deps.ts": "2e43cd0afd0b1d2c5b5ce924a9521e165c6ad1d6720e9a4ff5b328ae6f7a34c5",
     "https://deno.land/x/dallmo_util_yaml@v1.5.2/mod.ts": "2b523954750bfb2439c6ff5a175e3878d907f45fef19c040b4fa8de47fdb792f"

@@ -18,10 +18,10 @@ export {
 
   assertEquals
 
-} from "https://deno.land/std@0.218.2/assert/mod.ts";
+} from "jsr:@std/assert@^0.218.2";
 ////////////////////////////////////////////////////////////////////////////////
-export * as array  from "https://deno.land/x/dallmo_util_array@v1.2.0/mod.ts"; // published deno module
-export * as math   from "https://deno.land/x/dallmo_util_math@v1.1.0/mod.ts"; // published deno module
-export * as string from "https://deno.land/x/dallmo_util_string@v1.2.0/mod.ts"; // published deno module
-export * as yaml   from "https://deno.land/x/dallmo_util_yaml@v1.5.2/mod.ts"; // published deno module
+export * as array  from "jsr:@dallmo/util-array@^1.2.0";
+export * as math   from "jsr:@dallmo/util-math@^1.1.0";
+export * as string from "jsr:@dallmo/util-string@^1.2.0";
+export * as yaml   from "jsr:@dallmo/util-yaml@^1.5.2";
 ////////////////////////////////////////////////////////////////////////////////
