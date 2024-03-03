@@ -40,6 +40,9 @@
       }
     }
   },
+  "redirects": {
+    "https://deno.land/x/dallmo_util/mod.ts": "https://deno.land/x/dallmo_util@v1.0.0/mod.ts"
+  },
   "remote": {
     "https://deno.land/std@0.218.2/assert/_constants.ts": "a271e8ef5a573f1df8e822a6eb9d09df064ad66a4390f21b3e31f820a38e0975",
     "https://deno.land/std@0.218.2/assert/_diff.ts": "dcc63d94ca289aec80644030cf88ccbf7acaa6fbd7b0f22add93616b36593840",
@@ -109,6 +112,9 @@
     "https://deno.land/std@0.218.2/yaml/schema/mod.ts": "9bf7ff80c2a246f781bdcab979211d0389760831a974cf5883bf2016567e3507",
     "https://deno.land/std@0.218.2/yaml/stringify.ts": "580f8b2fa56e3233424520d8242f4fc0edf41ac54a6a6d2f6f8e0b6e99cd63c0",
     "https://deno.land/std@0.218.2/yaml/type.ts": "708dde5f20b01cc1096489b7155b6af79a217d585afb841128e78c3c2391eb5c",
+    "https://deno.land/x/dallmo_util@v1.0.0/app.ts": "74ee936553088e6dfb95e233099e1b6c78e51f44df8fbf13c5c24e525f6f0cef",
+    "https://deno.land/x/dallmo_util@v1.0.0/etc/deps.ts": "7fb0b1369c004d243a8f90d2e26aae1a7ee0f1e07958ae012f594a7d7f1e6467",
+    "https://deno.land/x/dallmo_util@v1.0.0/mod.ts": "61e22b5dd12713c1d7b0ab84455726419ab98f630610b5478a039a8799cdb786",
     "https://deno.land/x/dallmo_util_array@v1.2.0/app.ts": "1eb128b69f2785107faa917260252dd10978bbc8280aaf5449e5f0cbdb38ffe1",
     "https://deno.land/x/dallmo_util_array@v1.2.0/etc/deps.ts": "3b5f9e14b6375fff262296782c92064d306d14bc11dbfd1baea0a2f1d9261eb8",
     "https://deno.land/x/dallmo_util_array@v1.2.0/mod.ts": "61e22b5dd12713c1d7b0ab84455726419ab98f630610b5478a039a8799cdb786",
