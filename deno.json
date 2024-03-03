@@ -1,6 +1,6 @@
 {
   "tasks": {
     "dev": "deno run --watch app.ts",
-    "update-cache": "deno cache --reload --lock-write deps.ts"
+    "update-cache": "deno cache --reload --lock-write etc/deps.deno.ts"
   }
 }
