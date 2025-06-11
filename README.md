@@ -9,6 +9,7 @@
 # list of submodules
 
 - array
+- github
 - math
 - string
 - yaml

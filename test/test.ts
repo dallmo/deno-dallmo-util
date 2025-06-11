@@ -11,6 +11,12 @@ Deno.test( "test reaching dallmo-util-array", () => {
 
 }); // Deno.test
 /////////////////////////////////////////////////////////////
+Deno.test( "test reaching dallmo-util-github", () => {
+
+  assertEquals( dallmo_util.test.github(), "ok");
+
+}); // Deno.test
+/////////////////////////////////////////////////////////////
 Deno.test( "test reaching dallmo-util-math", () => {
 
   assertEquals( dallmo_util.test.math(), "ok");

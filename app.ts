@@ -3,6 +3,7 @@
 import { 
 
   array,
+  github,
   math,
   string,
   yaml,
@@ -12,6 +13,7 @@ import {
 const test: any = {
 
   array:     array.test,
+  github:    github.test,
   math:      math.test,
   string:    string.test,
   yaml:      yaml.test,
@@ -23,6 +25,7 @@ export {
   test,
 
   array,
+  github,
   math,
   string,
   yaml,
